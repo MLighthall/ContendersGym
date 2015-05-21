@@ -1030,6 +1030,16 @@ div.schedule-user-name {
 #our-facility {
     background-color: #e8e8e8;
 }
+.sched-times h3 {
+     color: #e8e8e8;
+}
+.sched-times p {
+    font-size: 20px;
+    color: #f5c229;
+}
+.sched-times span {
+    color: white;
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
 
