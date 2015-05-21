@@ -185,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 
 .panel {
     position: fixed;
-    left: -100%; /*left or right and the width of your navigation panel*/
+    right: -100%; /*left or right and the width of your navigation panel*/
     width: 100%; /*should match the above value*/
 }
 
@@ -196,98 +196,49 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #menu{
-    background: rgba(33, 33, 33, 0.9);
+    background: rgba(000, 000, 000, 0.85);
     z-index: 998;
 }
 
 #menu ul{
-    margin-top: 50px;
+    margin-top: 40px;
     padding-left: 0px;
 }
 
 #menu li{
     text-align: center;
     transition: all 0.4s ease;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 #menu li a{
     color: #fff;
-    font-size: 40px;
+    font-size: 36px;
     text-decoration: none;
     font-family: 'Hind', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 #menu li a:hover{
     color:#f5c229;
 }
 
-.menu-link {
-  z-index: 999;
-  display: block;
+.menu-link span img{
+  background: transparent;
   position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  width: 80px;
-  height: 80px;
-  font-size: 0;
-  text-indent: -9999px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  box-shadow: none;
-  border-radius: none;
-  border: none;
-  cursor: pointer;
-  -webkit-transition: background 0.3s;
-          transition: background 0.3s;
-  background-color: transparent;
+  z-index: 99999;
+  top: 20px;
+  right: 0px;
+  display: block;
+  width: 150px;
 }
 
 .menu-link:focus {
   outline: none;
 }
 
-.menu-link span {
-  display: block;
-  position: absolute;
-  top: 45px;
-  left: 18px;
-  right: 18px;
-  height: 6px;
-  border-radius: 2px;
-  background: white;
-  -webkit-transition: background 0 0.3s;
-          transition: background 0 0.3s;
-}
-
-.menu-link span::before,
-.menu-link span::after {
-  position: absolute;
-  display: block;
-  left: 0;
-  width: 100%;
-  height: 6px;
-  border-radius: 2px;
-  background-color: #fff;
-  content: "";
-  -webkit-transition-duration: 0.3s, 0.3s;
-          transition-duration: 0.3s, 0.3s;
-  -webkit-transition-delay: 0.3s, 0;
-          transition-delay: 0.3s, 0;
-}
-
-.menu-link span::before {
-  top: -15px;
-  -webkit-transition-property: top, -webkit-transform;
-          transition-property: top, transform;
-}
 
 header {
     text-align: center;
@@ -914,10 +865,11 @@ header {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 35%;
+    opacity: .65;
 }
 .head-content h1{
-    font-size: 110px;
+    font-size: 95px;
 }
 
 .vid-container {
@@ -998,10 +950,12 @@ a .scroll-icon {
 .detail-title {
     color:2a2a2a;
 }
+
 /* parallax row */
 .parallax-window {
     height: relative;
     background: transparent;
+    z-index: 99;
 }
 .parallax-window-2 {
     height: 300px;
