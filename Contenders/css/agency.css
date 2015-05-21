@@ -87,6 +87,28 @@ p.light {
     margin-top: 20px;
     margin-right: 20px;
 }
+.btn-primary-2 {
+    border-color: #212121;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #212121;
+    background: transparent;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.btn-primary-2:hover {
+    border-color: #fed136;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #212121;
+    background: #fed136;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -993,6 +1015,7 @@ div.schedule-user-name {
 }
 .parallax-page-head {
   width: 100%;
+  border-bottom: 20px solid black;
 }
 .parallax-page-head h1{
   color: white;
@@ -1004,6 +1027,10 @@ div.schedule-user-name {
     margin-right: 20px;
 }
 
+#our-facility {
+    background-color: #e8e8e8;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
 
 /* media queries */
@@ -1026,6 +1053,10 @@ div.schedule-user-name {
     text-transform: uppercase;
     padding: 15px 0;
     }
+    .parallax-page-head h1{
+    color: white;
+    font-size: 80px;
+}
 }
 @media(max-width: 767px) {
     .head-content h1{
@@ -1043,6 +1074,10 @@ div.schedule-user-name {
     #about h4 {
         font-size: 16px;
     }
+    .parallax-page-head h1{
+    color: white;
+    font-size: 50px;
+}
 }
 /*         Group Pic        */
 #group-pic-resp {
