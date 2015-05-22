@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
     font-family: 'Hind', sans-serif;
     background-color: #212121;
@@ -204,9 +204,9 @@ fieldset[disabled] .btn-xl.active {
 
 /* ==========================
    MENU FULLPAGE CSS
-========================== */
+   ========================== */
 
-.panel {
+   .panel {
     position: fixed;
     right: -100%; /*left or right and the width of your navigation panel*/
     width: 100%; /*should match the above value*/
@@ -981,11 +981,11 @@ a .scroll-icon {
     padding-bottom: 50px;
 }
 #team {
-        height: relative;
-        margin:0 auto;
-        width:100%;
-        position:relative;
-        display: block;
+    height: relative;
+    margin:0 auto;
+    width:100%;
+    position:relative;
+    display: block;
 }
 .detail-title {
     color:2a2a2a;
@@ -1048,7 +1048,7 @@ div.schedule-user-name {
     background-color: #e8e8e8;
 }
 .sched-times h3 {
-     color: #e8e8e8;
+   color: #e8e8e8;
 }
 .sched-times p {
     font-size: 20px;
@@ -1073,34 +1073,37 @@ div.schedule-user-name {
         font-size: 90px;
     }
     .menu-mid {
-    display: block;
+        display: block;
     }
     .menu-full {
         display: none;
     }
     #menu li a{
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-    font-family: 'Hind', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 15px 0;
+        color: #fff;
+        font-size: 30px;
+        text-decoration: none;
+        font-family: 'Hind', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 0;
     }
     .parallax-page-head h1{
-    color: white;
-    font-size: 80px;
-}
+        color: white;
+        font-size: 80px;
+    }
 }
 @media(max-width: 767px) {
+    video {
+        display: none;
+    }
     .head-content h1{
         font-size: 60px;
     }
     .menu-mid {
-    display: none;
+        display: none;
     }
     .menu-small {
-    display: block;
+        display: block;
     }
     .class-description {
         display: none;
@@ -1109,19 +1112,81 @@ div.schedule-user-name {
         font-size: 16px;
     }
     .parallax-page-head h1{
-    color: white;
-    font-size: 50px;
+        color: white;
+        font-size: 50px;
+    }
+    .sched-times {
+        text-align: center;
+    }
+    .sched-times p{
+        text-align: center;
+    }
+    #about img {
+        width: 80px;
+        height: 80px;
+    }
+
+
 }
-.sched-times {
-    text-align: center;
+@media(max-width: 568px) {
+    video {
+        display: none;
+    }
+    .head-content h1{
+        font-size: 50px;
+    }
+    .menu-mid {
+        display: none;
+    }
+    .menu-small {
+        display: block;
+    }
+    .class-description {
+        display: none;
+    }
+    #about h4 {
+        font-size: 16px;
+    }
+    .parallax-page-head h1{
+        color: white;
+        font-size: 50px;
+    }
+    .sched-times {
+        text-align: center;
+    }
+    .sched-times p{
+        text-align: center;
+    }
+    #about img {
+        width: 80px;
+        height: 80px;
+    }
+    .head-content {
+    z-index: 20;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    opacity: .65;
 }
-.sched-times p{
-    text-align: center;
+.menu-link span img{
+  background: transparent;
+  position: fixed;
+  z-index: 99999;
+  top: 20px;
+  right: -40px;
+  display: block;
+  width: 150px;
 }
+.title-page h1 {
+        font-size: 36px;
+    }
 }
 i.icon-search {
-   background-image: url('img/menu.svg');
-   display: block;
+ background-image: url('img/menu.svg');
+ display: block;
 }
 /*         Group Pic        */
 #group-pic-resp {
