@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Personal Training - Keene's #1 MMA Facility</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="utilcarousel-files/utilcarousel/util.carousel.css" type="text/css">
+    <link rel="stylesheet" href="utilcarousel-files/utilcarousel/util.carousel.skins.css" type="text/css">
+    <link rel="stylesheet" href="utilcarousel-files/magnific-popup/magnific-popup.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,700,600,500' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <a href="#menu" class="menu-link">
+            <span><img src="img/menu.svg"/></span>
+        </a>
+
+
+        <nav id="menu" class="panel" role="navigation">
+            <a href="index.html"><img src="img/contenders-full.png" class="menu-full img-responsive center-block"/></a>
+             <a href="index.html"><img src="img/contenders-mid.png" class="menu-mid img-responsive center-block"/></a>
+             <a href="index.html"><img src="img/contenders-small.png" class="menu-small img-responsive center-block"/></a>
+            <ul> 
+                <li><a  href="index.html#mission">- Mission -</a></li>
+                <li><a  href="index.html#about">- About Us -</a></li>
+                <li><a href="classes.html">- Classes -</a></li>
+                <li><a  href="index.html#schedule">- Schedule -</a></li>
+                <li><a  href="index.html#contact">- Contact -</a></li>
+            </ul>
+        </nav>    
+
+    <!-- Parallax divider -->
+        <div class="container parallax">
+          <div class="row">
+            <div class="parallax-page-head" data-parallax="scroll" data-image-src="img/jump-rope.jpg">
+              <div class="title-page">
+                <h1 class="text-center">Personal training</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- Mission Section -->
+    <section id="mission">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                      <h2 class="section-heading-yellow descp">Isolate your style</h2>
+                        <p class="large light">Do you want individual training to enhance your skills? Whether it be training to fight or get in shape, we will devise a training session fit to meet your goals. Professional fighter Matt Durling and amateur champion Jennifer Amato offer individual personal training sessions on an appointment basis. Contact us for more information</p>
+                </div>
+                      <div class="col-sm-3 sched-times text-right">
+                        <h3>Schedule</h3>
+                        <p class="text-right">Upon request</p>
+                      </div>
+
+                      <div id="simpleImg" class="util-carousel sample-img">
+                            <div class="item">
+                                <div class="meida-holder">
+                                    <img src="img/p1.jpg" alt="" />
+                                </div>
+                                <div class="hover-content">
+                                    <div class="overlay"></div>
+                                    <div class="link-contianer">
+                                        <a href="img/p1.jpg" class="img-link"><img src="img/zoom.png"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="meida-holder">
+                                    <img src="img/p2.jpg" alt="" />
+                                </div>
+                                <div class="hover-content">
+                                    <div class="overlay"></div>
+                                    <div class="link-contianer">
+                                        <a href="img/p2.jpg" ccontaclass="img-link"><img src="img/zoom.png"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+        </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/contenders-small.png" class="img-responsive center-block"/>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-center contact-info">80 Emerald st<br>Keene, NH 03431<br>(603)-918-3822<br>info@contendersgym.com</p>
+                    
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="http://wavesurgemedia.com">Site by Wavesurge Media</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+            <div class="bottom-foot">
+                 <div class="container">
+        <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <span class="copyright">Copyright &copy; Contenders Gym 2015</span>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menuFullpage.min.js"></script
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    <script src="js/jquery.parallax-scroll.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.accordion.js"></script>
+    <script src="js/jquery.vaccordion.js"></script>
+
+    <!--Testimonlial slider-->
+    <script src="utilcarousel-files/utilcarousel/jquery.utilcarousel.min.js" type="text/javascript"></script>
+    <script src="utilcarousel-files/magnific-popup/jquery.magnific-popup.js" type="text/javascript"></script>
+    <script>
+        smoothScroll.init();
+        $(document).ready(function() {
+                $('.menu-link').menuFullpage();
+        });
+    </script>
+    <script>
+        $(function() {
+          $('#features-carousel').utilCarousel({
+            responsiveMode : 'itemWidthRange',
+            itemWidthRange : [260, 300],
+            autoPlay : true,
+            interval : 3000
+          });
+
+          $('#simpleImg').utilCarousel({
+            responsiveMode : 'itemWidthRange',
+            itemWidthRange : [260, 320]
+          });
+
+          $('#team-showcase').utilCarousel({
+            responsiveMode : 'itemWidthRange',
+            itemWidthRange : [300, 360]
+          });
+
+          $('#navtopbox').utilCarousel({
+            navigation : true,
+            navigationText : ['<i class="icon-left-open-big"></i>', '<i class=" icon-right-open-big"></i>'],
+            breakPoints : [[1900, 5], [1200, 4], [992, 3], [768, 2], [480, 1]]
+          });
+
+          $('#normal-imglist').utilCarousel({
+            pagination : false,
+            navigationText : ['<i class="icon-left-open-big"></i>', '<i class=" icon-right-open-big"></i>'],
+            navigation : true,
+            rewind : false
+          });
+          $('#normal-imglist2').utilCarousel({
+            pagination : false,
+            responsiveMode : 'itemWidthRange',
+            itemWidthRange : [100, 130],
+            navigationText : ['<i class="icon-left-open-big"></i>', '<i class=" icon-right-open-big"></i>'],
+            navigation : true,
+            rewind : false
+          });
+
+          $('#logo-showcase').utilCarousel({
+            responsiveMode : 'itemWidthRange',
+            itemWidthRange : [200, 210]
+          });
+          $('#logo-showcase-gray').utilCarousel({
+            showItems : 5,
+            responsiveMode : 'itemWidthRange',
+            itemWidthRange : [200, 210],
+            interval : 3000,
+            autoPlay : true,
+            pagination : false
+          });
+
+          $('#schedule').utilCarousel({
+            showItems : 1,
+            breakPoints : [[1920, 1]],
+            autoPlay : false
+          });
+
+          $('#fullwidth').utilCarousel({
+            breakPoints : [[600, 1], [900, 2], [1200, 3], [1500, 4], [1800, 5]],
+            mouseWheel : false,
+            rewind : false
+          });
+
+          $('#portfolio').utilCarousel({
+            breakPosints : [[1200, 4], [992, 3], [768, 2], [480, 1]]
+          });
+        });
+</script>
+<script type="text/javascript">
+            $(function() {
+                $('#va-accordion').vaccordion();
+            });
+        </script>
+
+
+
+</body>
+
+</html>
